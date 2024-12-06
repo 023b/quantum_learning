@@ -1,0 +1,40 @@
+
+
+# Week 1 Notes: Quantum Computing Basics
+
+## Qubits vs Classical Bits
+- Classical bits: only 0 OR 1
+- Qubits: can be in superposition (kind of both 0 and 1 at once)
+- Measuring a qubit forces it to pick just 0 or 1
+
+## Superposition
+- Created using the Hadamard (H) gate
+- When measured, gives random results - about 50% 0s and 50% 1s
+- This is where quantum randomness comes from
+
+## Gates 
+- H gate: creates superposition
+- X gate: flips a qubit (like NOT gate)
+- CNOT (CX) gate: flips second qubit only if first qubit is 1
+
+## Quantum Circuits
+- Sequence of gates applied to qubits
+- Need to end with measurement to see results
+- A circuit run many times gives statistical results
+
+## Entanglement
+- Bell state: simplest entangled state
+- Created with H gate + CNOT gate
+- When measured, both qubits always match (both 0 or both 1)
+- Never get 01 or 10 outcomes - proves quantum weirdness
+
+## Applications I Tried
+- Quantum random number generator
+- Quantum dice roller
+
+## Qiskit Stuff
+- QuantumCircuit: creates circuit with qubits
+- AerSimulator: runs the simulation
+- Sampler: collects results
+- shots=1000: runs circuit 1000 times
+
