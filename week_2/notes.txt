@@ -1,0 +1,40 @@
+# Week 2 Notes: Quantum Gates and Algorithms
+
+## Basic Gates
+- X gate: Flips the qubit (like NOT gate) - changes |0⟩ to |1⟩ and vice versa
+- Z gate: Changes phase but hard to see directly - |0⟩ stays as |0⟩ 
+- Z only becomes visible after H gates
+- Different combos of gates do different things
+- Order matters!
+
+## Deutsch Algorithm
+- My first actual quantum algorithm
+- Solves a weird problem: is a function constant or balanced?
+- Classical computers: need to check twice
+- Quantum: only need to check once
+- Results show |0⟩ for constant, |1⟩ for balanced
+
+## Grover's Algorithm
+- Search algorithm - finds a marked item
+- Normal search: check half items on average
+- Quantum: way faster with large databases
+- My simple version looks for |11⟩ state
+- Oracle marks the target state
+- Diffusion amplifies the marked state
+- Results show mostly |11⟩ (binary 3)
+
+## Weird Quantum Effects
+- Tested X→Z→X combo
+- Gates don't always just add together
+- Interference can cancel out or amplify effects
+- This is why quantum computers might be powerful
+
+## Still Don't Get
+- Why Z gate doesn't seem to do anything alone
+- How Grover's actually works (just copied it honestly)
+- If this is actually useful for real problems
+
+## Next Steps
+- Try more algorithms
+- Figure out quantum Fourier transform
+- Better understand interference effects
