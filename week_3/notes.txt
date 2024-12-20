@@ -1,0 +1,41 @@
+Week 3 Notes: Quantum Fourier Transform and Advanced Algorithms
+Quantum Fourier Transform (QFT)
+
+Like classical Fourier transform but quantum
+Transforms between "time" and "frequency" domains
+Core building block for many quantum algorithms
+Uses H gates and controlled phase rotations
+My 3-qubit implementation seems to work but results are weird
+Need to swap qubits at the end because of qubit ordering
+
+Phase Estimation
+
+Finds the "phase" of a quantum operation
+Uses QFT as a key component
+Created a simple example finding phase = 1/8
+Results mostly show |001⟩ (binary for 1/8)
+This algorithm is used in Shor's factoring algorithm
+Starting to see how QFT is useful
+
+Quantum Teleportation
+
+Transfers quantum state between qubits using entanglement
+Needs classical communication + quantum entanglement
+Bell state creates the quantum channel
+Bell measurement collapses the state
+Classical correction operations restore the state
+Couldn't fully simulate with conditional operations
+
+Challenges
+
+Getting more complex - harder to understand what's happening
+QFT math is confusing
+Controlled phase rotations look simple but I don't get them
+Teleportation conditional ops not working with new Qiskit
+
+Cool Realizations
+
+These algorithms have real uses in quantum computing
+QFT is way faster than classical Fourier transform
+Starting to see how quantum speedups happen
+Teleportation shows how entanglement is useful
