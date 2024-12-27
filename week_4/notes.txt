@@ -1,0 +1,33 @@
+Week 4 Notes: Error Correction & IBM Quantum
+Quantum Errors
+
+Bit flip (X error): flips between |0⟩ and |1⟩
+Phase flip (Z error): flips sign of |1⟩ component
+Depolarizing: random X/Y/Z errors (total corruption)
+Real quantum computers have ~5% error per gate
+
+Error Correction Codes
+
+Bit-flip code: encodes |0⟩→|000⟩, |1⟩→|111⟩
+Phase-flip code: similar but in Hadamard basis
+Shor code: protects against any single-qubit error
+Uses majority voting to correct errors
+
+Syndrome Measurement
+
+Detects presence and location of errors
+Doesn't collapse quantum information
+Uses ancilla qubits for detection
+
+IBM Quantum Access
+
+Real quantum computers available through cloud
+Queue times can be very long (hours)
+Fewer qubits than simulation (currently <150)
+Much higher error rates than simulation
+
+Noise Modeling
+
+Can simulate noise in Qiskit
+Different types: bit-flip, phase-flip, depolarizing
+Helps test error correction codes
