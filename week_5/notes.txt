@@ -1,0 +1,144 @@
+Week 5 Notes: Quantum Machine Learning
+Quantum ML Approaches
+
+Quantum feature maps: encode classical data as quantum states
+Variational quantum classifiers: trainable circuits
+Quantum kernels: quantum version of SVM kernels
+
+Quantum Encoding
+
+Encode classical features into qubit rotations
+Rx gates use angles to represent data values
+Entanglement creates non-linear feature interactions
+Measurement gives probability used for classification
+
+Variational Circuits
+
+Quantum version of neural network layers
+Contains trainable parameters (rotation angles)
+Alternating rotation and entanglement layers
+
+Gradient Calculation
+
+Need 2 circuit evaluations per parameter
+No automatic differentiation (unlike PyTorch)
+Makes training very computationally expensive
+
+Datasets
+
+Used moons dataset (two interleaved half-circles)
+Need feature scaling to [0,2π] for encoding in gates
+Limited to low-dimensional data (few features)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
