@@ -1,0 +1,31 @@
+Week 6 Notes: Quantum Neural Networks
+QNN Architecture
+
+Input encoding layer: encode classical data
+Variational layers: trainable quantum operations
+Measurement layer: convert to classical output
+
+Layer Components
+
+Rotation gates (Rx, Ry): trainable parameters
+Entanglement (CNOT): creates non-linearity
+Circular entanglement: connects all qubits
+
+Training Process
+
+Define loss function (typically Mean Squared Error)
+Calculate gradients numerically
+Update parameters iteratively
+Much slower than classical backpropagation
+
+Classical-Quantum Hybrid
+
+Classical preprocessing reduces dimensions
+Quantum processing for feature interactions
+Classical postprocessing for final predictions
+
+Iris Dataset Classification
+
+Classical benchmark dataset
+Used PCA to reduce to 2 dimensions
+Limited by quantum circuit depth and width
