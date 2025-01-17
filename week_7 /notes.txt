@@ -1,0 +1,26 @@
+Week 7 Notes: Quantum vs Classical ML Benchmark
+Performance Comparison
+
+Classical SVM: 96% accuracy, very fast
+Classical Neural Net: 93% accuracy, fast
+Quantum Classifier: 75% accuracy, extremely slow
+
+Theoretical Advantages
+
+Quantum access to exponentially larger feature spaces
+Potential quantum kernels with complex correlations
+Ability to represent certain distributions more efficiently
+
+Current Limitations
+
+Noisy quantum hardware
+Limited qubits (~50-100 currently)
+Decoherence limits circuit depth
+Training requires many circuit evaluations
+
+Hardware Considerations
+
+IBM Quantum: queue times of 3+ hours
+Limited connectivity between qubits
+Circuit transpilation adds depth
+Measurement errors compound problems
