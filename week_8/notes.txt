@@ -1,0 +1,40 @@
+Week 8 Notes: Quantum vs Classical Algorithms
+Search Algorithms
+
+Classical search: O(N) operations
+Quantum search (Grover): O(√N) operations
+Example: 1 million items
+
+Classical: ~1,000,000 operations
+Quantum: ~1,000 operations (1000x faster)
+
+
+
+Quantum Simulation
+
+Classical: O(2^N) operations (exponential)
+Quantum: O(N) operations (linear)
+Example: 50-qubit simulation
+
+Classical: ~10^15 operations (impossible)
+Quantum: ~50 operations (tractable)
+
+
+
+Other Quantum Advantages
+
+Shor's algorithm: exponential speedup for factoring
+HHL algorithm: exponential speedup for linear systems
+Quantum Fourier Transform: exponential speedup for certain transformations
+
+Speedup Origins
+
+Superposition: evaluate multiple possibilities simultaneously
+Interference: amplify correct answers, cancel wrong ones
+Entanglement: correlations beyond classical probability
+
+Current State
+
+Most advantages theoretical
+Need lower error rates and more qubits
+Some small-scale demonstrations on real hardware
